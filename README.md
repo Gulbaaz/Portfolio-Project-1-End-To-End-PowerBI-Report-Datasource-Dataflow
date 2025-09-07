@@ -96,5 +96,5 @@ It holds around **2.5 lakh entries**, providing robust insights into loan trends
 
 ## ✍️ Author
 **Gulbaaz**  
-DTU’22 | Aspiring Data & Business Analyst | SQL, Power BI, Excel Projects on GitHub  
+DTU’22 | Data & Business Analyst | SQL, Power BI, Excel Projects on GitHub  
 📫 [GitHub Profile](https://github.com/Gulbaaz)
