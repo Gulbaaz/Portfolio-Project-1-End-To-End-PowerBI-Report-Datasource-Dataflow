@@ -1,0 +1,37 @@
+Loan Data Analysis – Power BI Report
+
+1. Dataset:
+- Loan.xlsx file with ~2.5 lakh entries
+- Includes Loan ID, Customer ID, Loan Amount, Status, Dates, Customer demographics
+
+2. Data Storage:
+- Data imported into MSSQL Server as a database
+- SQL Server used as the primary data source for Power BI
+
+3. Dataflow Setup:
+- Power BI Gen 1 Dataflow created to manage data ingestion
+- Connected directly to SQL Server database
+- Scheduled refresh setup to ensure data is up-to-date (if applicable)
+
+4. Report Design:
+- Power BI Desktop used to create the report file (Project 1.pbix)
+- Three pages designed focusing on:
+  a. Loan distribution and trends
+  b. Customer segmentation and repayment analysis
+  c. Performance metrics and KPIs
+- Multiple DAX measures created to calculate insights like total loans, overdue payments, average loan amounts, etc.
+
+5. Data Transformation:
+- Power Query applied to clean data before visualizations
+- Relationships between tables defined for accurate aggregations
+
+6. Interactivity:
+- Slicers and filters used for dynamic exploration
+- Measures and calculated columns used to enhance analysis
+
+7. Key Learnings:
+- Working with large datasets in SQL Server
+- Managing dataflows in Power BI for scalable solutions
+- Creating multi-page reports using DAX for advanced analytics
+- Handling data refreshes and report optimization
+
