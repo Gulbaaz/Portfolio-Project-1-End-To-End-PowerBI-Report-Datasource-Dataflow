@@ -1,7 +1,7 @@
-# 📊 Power BI Project – Loan Data Analysis
+# 📊 Portfolio Project 1 – End-To-End Power BI Report (Data Source & Dataflow)
 
-An end-to-end Power BI dashboard built on loan data to analyze customer trends, loan status, and repayment patterns.  
-The project demonstrates data extraction from a SQL Server database, transformation through Power BI Dataflow, and visualization using DAX measures across multiple report pages.
+An end-to-end Power BI report built on loan data to analyze customer trends, repayment patterns, and loan distribution.  
+The project covers data storage in SQL Server, ingestion via Power BI Dataflow, interactive reporting using DAX, and data validation through Excel pivot tables.
 
 ---
 
@@ -18,15 +18,35 @@ The project demonstrates data extraction from a SQL Server database, transformat
 ---
 
 ## 📘 Project Overview
-The **Loan Data Analysis Dashboard** helps to explore loan distribution, repayment trends, and customer demographics through insightful visualizations.  
-It covers the complete pipeline:  
-1️⃣ Importing large-scale loan data (~2.5 lakh records) from a **MSSQL** database  
-2️⃣ Creating a **Power BI Dataflow** to manage data ingestion  
-3️⃣ Designing a **Power BI report with 3 pages**, using DAX measures for advanced insights
+This portfolio project demonstrates a complete analytics pipeline:
+1️⃣ Large-scale loan dataset (~2.5 lakh records) stored in **SQL Server**  
+2️⃣ Data ingestion through **Power BI Gen 1 Dataflow**  
+3️⃣ Interactive report with **3 pages** and advanced **DAX measures**  
+4️⃣ Data validation using **Excel pivot tables**  
+The project is designed to deliver actionable insights into loan performance and customer behavior.
 
 ---
 
 ## 📁 Folder Structure
+
+Portfolio-Project-1-End-To-End-PowerBI-Report-Datasource-Dataflow/
+│
+├── 01_Data/
+│ └── Loan.xlsx
+│
+├── 02_PowerBI_Report/
+│ └── Project 1.pbix
+│
+├── 03_Resources/
+│ └── Notes.txt
+│
+├── 04_Images/
+│ ├── 1.png
+│ ├── 2.png
+│ └── 3.png
+│
+└── README.md
+
 
 ---
 
@@ -35,24 +55,26 @@ The dataset (**Loan.xlsx**) contains:
 - Loan ID, Customer ID, Loan Amount, Loan Status  
 - Issue Date, Due Date, Payment History  
 - Customer Demographics like Age, Gender, Region  
-
-It holds **2.5 lakh entries**, providing robust insights into loan patterns and customer behavior.
+It holds around **2.5 lakh entries**, providing robust insights into loan trends and repayment patterns.
 
 ---
 
 ## 📊 Power BI Report Features
 📂 [View Power BI Report](./02_PowerBI_Report/Project%201.pbix)
 
-- Data sourced from **SQL Server** and managed through **Dataflow (Gen 1)**  
-- 3 report pages exploring loan trends, repayment patterns, and customer segments  
-- Custom **DAX measures** used for aggregations, KPIs, and calculated insights  
-- Interactive filters & slicers for granular exploration  
+- Data sourced from **SQL Server** and ingested via **Power BI Dataflow (Gen 1)**  
+- **3 report pages** with detailed exploration of loans, customers, and repayment metrics  
+- Custom **DAX measures** to calculate KPIs like total loans, overdue amounts, and average repayments  
+- **Interactive slicers and filters** for dynamic insights  
+- **Excel pivot tables** used for data validation and cross-checking calculations
 
 ---
 
 ## 📸 Dashboard Images
 ![Dashboard Page 1](./04_Images/1.png)  
-![Dashboard Page 2](./04_Images/2.png)  
+
+![Dashboard Page 2](./04_Images/2.png) 
+
 ![Dashboard Page 3](./04_Images/3.png)
 
 ---
@@ -63,15 +85,16 @@ It holds **2.5 lakh entries**, providing robust insights into loan patterns and 
 ---
 
 ## 🛠️ Tools Used
-- **MSSQL** – Data storage & extraction  
-- **Power BI Dataflow** – Data ingestion and management  
-- **Power BI Desktop** – Report building  
+- **SQL Server** – Data storage and querying  
+- **Power BI Dataflow (Gen 1)** – Data ingestion and management  
+- **Power BI Desktop** – Report creation and visualization  
 - **DAX** – Advanced calculations and measures  
-- **Power Query** – Data transformation  
+- **Power Query** – Data cleaning and transformation  
+- **Excel (Pivot Tables)** – Data validation and cross-verification
 
 ---
 
 ## ✍️ Author
 **Gulbaaz**  
-DTU’22 | Aspiring Data & Business Analyst | SQL, Power BI, Dataflow Projects on GitHub  
+DTU’22 | Aspiring Data & Business Analyst | SQL, Power BI, Excel Projects on GitHub  
 📫 [GitHub Profile](https://github.com/Gulbaaz)
